@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 225, 219);
+}
+.container {
+    width:1200px;
+    height: 900px;
+    border-radius: 5px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:150px;
+    background-color: white;
+
+}
+
+.perfume-img img{
+    width:600px;
+    height:900px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+
+}
+
+ .perfume-brand {
+    width: 600px;
+    height: 900px;
+    margin: 90px 0 20px 80px;
+    
+
+ }
+
+ .perfume {
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+   
+ }
+
+.perfume-title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+    color:hsl(212, 21%, 14%);
+    margin-bottom: 40px;
+}
+
+.perfume-description {
+    font-size: 30px;
+    color: hsl(228, 12%, 48%);
+    font-family: mont;
+    line-height: 1.4;
+    margin-bottom: 80px;
+
+}
+
+.perfume-price :first-child{
+    list-style: none;
+    display: inline-block;
+    margin:0 80px 50px 0;
+    font-size: 60px;
+    color:hsl(158, 36%, 37%) ;
+    font-weight: bold;
+}
+.perfume-price :last-child{
+    list-style: none;
+    display: inline-block;
+    font-size:40px;
+    color:hsl(228, 12%, 48%) ;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+.button {
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(158, 36%, 37%);
+    margin-left: 50px;
+
+}
+button:hover{
+    background-color: hsl(157, 11%, 67%);
+    cursor: pointer;
+   
+
+}
+button img{
+    width: 40px;
+
+}
